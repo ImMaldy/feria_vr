@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	conn, err := amqp.Dial("amqp://guest:guest@172.30.224.1:5672/")
+	conn, err := amqp.Dial("amqp://tzoeibjf:BxXQ3VAX_Nyl1hW1D9A28hmrnquflDaG@jackal.rmq.cloudamqp.com/tzoeibjf")
 
 	if err != nil {
 		log.Fatal(err)
